@@ -10,6 +10,7 @@
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .head-bar {
@@ -267,6 +268,7 @@ nav {
 
 .choose-your-plan {
     padding: 80px 0 75px;
+    background: linear-gradient(180deg, #F8F8F8 -45.04%, rgba(248, 248, 248, 0) 88.56%);
 }
 
 .plan-spacing {
@@ -364,7 +366,8 @@ nav {
     border: 2px solid #DDDDDD;
     padding: 20px;
     border-radius: 10px;
-    height: 225px;
+    height: 260px;
+    background-color: #fff;
 }
 
 .rates:hover {
@@ -466,11 +469,56 @@ nav {
 
 /* footer */
 
+
 footer {
     background-color: #F8F8F8;
 }
 
+.content-blocks { 
+    padding: 108px 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.left-side .logotype {
+    height: 36.23px;
+    width: 149px;
+}
+
 .socs {
     display: flex;
+    margin-left: -20px ;
 }
- 
+
+.right-side { 
+    display: flex;
+    gap: 126px;
+}
+
+.foot-block-p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 0 20px;
+}
+
+[class*="colm-"] {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.services {
+    color: #4F5665;
+    line-height: 30px;
+}
+
+.services:hover {
+    color: #F53838;
+}
